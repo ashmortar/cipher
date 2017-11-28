@@ -27,7 +27,7 @@ var cipher = function() {
   var sentence2 = sentence.charAt(sentence.length -1).toUpperCase() + sentence.charAt(0).toUpperCase();
   var sentence3 = sentence.charAt(sentence.length / 2);
   var sentence4 = (sentence3 + sentence + sentence2).split("").reverse().join("");
-  console.log(sentence4);
+  alert(sentence4);
 };
 
 cipher();
